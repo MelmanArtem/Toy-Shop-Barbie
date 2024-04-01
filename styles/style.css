@@ -1,0 +1,57 @@
+:root {
+    --lato: "Lato", sans-serif;
+    --russo-one: "Russo One", sans-serif;
+
+    --w-container: 1440px;
+    --accent: #F658BA;
+    --light: #FFFAFD;
+    --dark: #000000;
+    --dark-rgb: 0, 0, 0; 
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    font-family: var(--lato);
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px 0 10px;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    max-width: var(--w-container);
+    background-color: var(--light);
+    margin: 0 auto;
+    padding-left: clamp(15px, 3vw, 75px);
+    padding-right: clamp(15px, 3vw, 75px);
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 6px solid #ffffff;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 40px 0;
+}
+.header__logo {
+    display: block;
+    height: 61px;
+    width: 200px;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+    background-color: cover;
+}
+.header__nav {
+    
+}
