@@ -53,5 +53,9 @@ a {
     background-color: cover;
 }
 .header__nav {
-    
+    display: flex;
+    gap: 50px;
 }
+.header__link (
+    
+)
